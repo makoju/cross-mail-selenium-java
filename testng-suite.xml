@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="cross-mail-selenium-java-Mahesh"  preserve-order="true" parallel="false">
+  <test name="Gmail Regression Tests" preserve-order="true" parallel="false">
+    <classes>
+      <class name="com.crossover.e2e.GMailTest"/>
+    </classes>
+  </test>
+</suite>
